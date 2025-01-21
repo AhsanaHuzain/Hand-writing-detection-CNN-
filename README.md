@@ -1,1 +1,3 @@
-# Hand-writing-detection-CNN-
+# Handwritten Digit Recognition
+
+This project implements a convolutional neural network (CNN) to classify handwritten digits from the MNIST dataset. Using TensorFlow and Keras, the model is trained on 60,000 grayscale images of digits (28x28 pixels) and tested on 10,000 images. The dataset is preprocessed through normalization, reshaping, and one-hot encoding. The CNN architecture includes three convolutional layers, two max-pooling layers, a flatten layer, and two dense layers. The model is compiled using the Adam optimizer and categorical cross-entropy loss, achieving competitive accuracy on the test set. Training metrics, such as accuracy and loss, are visualized for both training and validation data. The trained model is saved for future inference. This project demonstrates a fundamental application of deep learning in image classification tasks.
